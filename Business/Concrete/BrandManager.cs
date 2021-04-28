@@ -21,15 +21,8 @@ namespace Business.Concrete
 
         public List<Brand> AddBrand()
         {
-            if (brand.Name.Length>=2)
-            {
-                return _brandDal.Add(brand);
-            }
-            else
-            {
-                throw new NotImplementedException();
-            }
-            
+            throw new NotImplementedException();
+
         }
 
         public List<Brand> GetAll()
